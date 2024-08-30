@@ -1,11 +1,10 @@
 import React from 'react';
+import { AppRoutes } from './routes/index';
 
 export const App = ()  =>{
   return (
     <>
-    <div className='App'>
-      Ola!
-    </div>
+      <AppRoutes></AppRoutes>
     </>
   );
 }
